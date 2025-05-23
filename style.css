@@ -12,7 +12,9 @@ a {
 
 .container {
     display: flex;
+    flex-direction: column;
     height: 100vh;
+    justify-content: center;
     align-items: center;
 } 
 
@@ -21,7 +23,7 @@ a {
     display: flex;
     justify-content: left;
     flex-direction: row;
-    border: solid #635f26 4px;
+    border: solid #6b431e 4px;
     background-color: #ffefae;
     height: 400px;
     width: 900px;
@@ -42,3 +44,10 @@ a {
     align-self: center;
 }
 
+.navbar {
+    justify-content:flex-start;
+    order: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+
+}
