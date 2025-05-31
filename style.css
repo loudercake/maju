@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+  --width: 800px;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -45,9 +49,27 @@ a {
 }
 
 .navbar {
-    justify-content:flex-start;
-    order: 0;
-    padding: 20px;
+  display: flex;
+    justify-content: center;
     background-color: whitesmoke;
-
+    width: var(--width);
 }
+
+.navbutton {
+      text-decoration: none;
+  display: block;
+  padding: 16px;
+  background-color: #dddddd;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+
