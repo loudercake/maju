@@ -51,12 +51,12 @@ a {
 .navbar {
   display: flex;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: #03254c;
     width: var(--width);
 }
 
 .navbutton {
-      text-decoration: none;
+  text-decoration: none;
   display: block;
   padding: 16px;
   background-color: #dddddd;
