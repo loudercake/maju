@@ -1,41 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* carrega fonte do google fonts /*
+
+
 
 :root {
-  --width: 800px;
+  --width: 800px;i /* variavel para a largura */
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    display: flex; /* utiliza o metodo flex de exibição de elementos */
+    justify-content: center; /* centraliza conteudo da pagina */
     background-color: #007190;
 }
 
 a { 
-    color: inherit;
+/* remove todos os estios predefinidos pelo navegador do elemento ul */
+    color: inherit; 
     text-decoration: none;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* direciona o flex de cima para baixo, para exibir a navbar e o cartao em ordem */
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* posiciona os elementos no centro */
+    align-items: center; /* alinha os conteudos no centro */
 } 
 
 .cartao {
-    border-radius: 10px;
+    border-radius: 10px; /* grossura das curva das bordas */
     display: flex;
-    justify-content: left;
-    flex-direction: row;
-    border: solid #6b431e 4px;
+    justify-content: left /* posiciona elementos da esquerda pra direita */;
+    flex-direction: row; /* direciona o conteudo horizontalmente */
+    border: solid #6b431e 4px; /* adiciona uma borda solida marrom de grossura de 4 pixels */
     background-color: #ffefae;
     height: 400px;
     width: 900px;
 }
 
 .texto {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif /* utliza a fonte baixada pelo google fonts */;
     font-size: 1.3em;
     width: 65%;
     justify-content: left;
@@ -44,8 +47,8 @@ a {
 
 .imagem {
     padding: 20px;
-    justify-content: flex-end;
-    width: 35%;
+    justify-content: flex-end; /* se posiciana no fim do flex */
+    width: 35%; 
     align-self: center;
 }
 
@@ -65,6 +68,7 @@ a {
 }
 
 ul {
+/* remove todos os estios predefinidos pelo navegador do elemento ul */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -72,7 +76,7 @@ ul {
 
 li {
   text-decoration: none;
-  margin: 10px;
+  margin: 10px; /* adiciona espaçamento entre botões */
   float: left;
 }
 
